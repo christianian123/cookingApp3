@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chickenAdobo"
+    android:orientation="vertical"
+    android:background="@drawable/bg">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/detailTitle"
+        android:layout_marginTop="14dp"
+        android:text="Chicken Adobo"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:layout_marginBottom="12dp"/>
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:id="@+id/detailImage"
+        android:padding="8dp"
+        android:layout_gravity="center"
+        android:src="@drawable/chicken_adobo"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Ingredients"
+        android:padding="20dp"
+        android:textStyle="bold"
+        android:layout_marginStart="65dp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:id="@+id/detaildesc"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="    ->>  2 lbs chicken\n    (you can use thighs, drumsticks, or a \n    combination)\n\n
+   ->>  1/2 cup soy sauce\n\n
+   ->>  1/2 cup vinegar\n    (cane vinegar or white vinegar works \n    well)\n\n
+   -->  4 cloves garlic, minced\n\n
+   -->  1 onion, sliced\n\n
+   ->>  3-4 bay leaves\n\n
+   ->>  1 teaspoon whole peppercorns\n\n
+   ->>  1 tablespoon cooking oil\n\n
+   ->>  1 cup water\n\n
+   ->>  Salt and pepper to taste\n\n
+   ->>  Optional: sliced green chilies for \n    added heat\n\n"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Instructions"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="18dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="20dp"
+        android:text="   ->>   In a large bowl, combine the soy sauce, vinegar, minced garlic, and  whole  peppercorns. Add the chicken pieces to the marinade and let it marinate for at least 30 minutes, but preferably a few hours or overnight in the refrigerator.\n\n
+
+ ->>   Heat oil in a large skillet or pot over medium heat. Add the sliced onions and sauté until they become translucent.\n\n
+
+ ->>   Add the marinated chicken pieces (reserve the marinade) to the pot. Cook until the chicken is browned on all sides, about 5-7 minutes.\n\n
+
+ -->   Pour in the marinade and add bay leaves. Bring to a simmer.\n\n
+
+ ->>   Once simmering, add water to the pot. Bring it back to a simmer, cover, and let it cook for about 30-40 minutes, or until the hicken is tender and cooked through. Stir occasionally.\n\n
+
+ -->   Once the chicken is cooked, taste and djust the seasoning with salt and pepper as needed. If you want some heat, you can add sliced green chilies at this point.\n\n
+
+ ->>   Serve hot with steamed rice. Enjoy your delicious Chicken Adobo!"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+        </LinearLayout>
+</ScrollView>
+</LinearLayout>
